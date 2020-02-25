@@ -1,0 +1,19 @@
+$background-color: #c3c7ca;
+$text-color: #34444f;
+
+.check-btn {
+  background-color: $background-color;
+  border: none;
+  color: $text-color;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
